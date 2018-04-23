@@ -21,19 +21,30 @@ body{
     border-radius: 0px 0px 10px 0px;
 }
 
-.kerdesek{
+.valaszok{
     height: 200px;
     width: 560px;
     background-color: rgba(5,5,5,0.8);
-    padding: 40px;
+    padding: 20px 40px 60px 40px;
     border-radius: 30px;
     margin: 0 auto;
+}
+
+#kerdes{
+    margin: 0 auto;
+    width: auto;
+}
+
+#kerdes p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
 }
 
 .valasz{
     width: 180px;
     height: 60px;
     float: left;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     background-color: #C0C0C0;
 }
