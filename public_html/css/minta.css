@@ -3,27 +3,31 @@ body{
 }
 
 #elso{
+    border-radius: 10px 0px 0px 0px;
 }
 #masodik{
     margin-right: 40px;
     float: right;
+    border-radius: 0px 10px 0px 0px;
 }
 #harmadik{
     clear: both;
+    border-radius: 0px 0px 0px 10px;
 }
 #negyedik{
     margin-right: 40px;
     margin-bottom: 0px;
     float: right;
+    border-radius: 0px 0px 10px 0px;
 }
 
 .kerdesek{
     height: 200px;
     width: 560px;
-    background-color: #050505;
-    opacity: 0.8;
+    background-color: rgba(5,5,5,0.8);
     padding: 40px;
     border-radius: 30px;
+    margin: 0 auto;
 }
 
 .valasz{
@@ -32,5 +36,4 @@ body{
     float: left;
     margin-bottom: 60px;
     background-color: #C0C0C0;
-    opacity:0.8;
 }
