@@ -11,7 +11,7 @@ var rosszvalasz;
 var nyomott;
 var kerdesSzama = 0;
 var helyzetek;
-var forint = 100;
+var forint = 1;
 var forintok;
 var nyeremeny = "0 Ft";
 
