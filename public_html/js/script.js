@@ -11,13 +11,20 @@ var rosszvalasz;
 var nyomott;
 var kerdesSzama = 0;
 var helyzetek;
+var forint = 100;
+var forintok;
+var nyeremeny = "0 Ft";
 
 function init() {
 
 
     var helyzetBlokk = document.getElementById("helyzetBlokk");
-    for (var i = 0; i < 10; i++) {
-        helyzetBlokk.innerHTML += "<div class='test'>" + (i + 1) + ". kérdés</div>";
+    var nyeremenyBlokk = document.getElementById("nyeremenyBlokk");
+    for (var i = 1; i < 11; i++) {
+        helyzetBlokk.innerHTML += "<div class='test'>" + (i) + ". kérdés</div>";  
+        if(i%5===0) nyeremenyBlokk.innerHTML += "<div class='penz' style='background-color: brown;'>" + forint*10 +" Ft</div>";
+        else nyeremenyBlokk.innerHTML += "<div class='penz'>" + forint*10 +" Ft</div>";
+        forint*=10;
     }
     betoltes();
 
@@ -36,6 +43,7 @@ function betoltes() {
     }
 
     helyzetek = document.getElementsByClassName("test");
+    forintok = document.getElementsByClassName("penz");
 
     helyzetek[kerdesSzama].style.backgroundColor = "yellow";
     helyzetek[kerdesSzama].style.color = "black";
@@ -81,8 +89,15 @@ function johet() {
     var nyomottgomb = document.getElementById(jogomb);
     nyomottgomb.style.backgroundColor = "green";
     if (nyomott === jogomb) {
+        if((kerdesSzama+1)%5===0 && kerdesSzama>2){
+            forintok[kerdesSzama].style.backgroundColor = "darkgreen";
+            nyeremeny=forintok[kerdesSzama].innerHTML;
+        }
+        else forintok[kerdesSzama].style.backgroundColor = "green";
         helyzetek[kerdesSzama++].style.backgroundColor = "green";
+        if(kerdesSzama!==10)
         setTimeout(betoltes, 2000);
+        else ujra();
     }
 
 }
@@ -96,7 +111,8 @@ function piros() {
 
 function rossz() {
     var valaszok = document.getElementById("valaszok");
-    valaszok.innerHTML = "<div id='ujra' onclick='ujra();'>Újra</div>";
+    valaszok.innerHTML = "<div id='vegeSzoveg'>A játék véget ért! Nyereménye: "+nyeremeny+"</div>";
+    valaszok.innerHTML += "<div id='ujra' onclick='ujra();'>Újra</div>";
 }
 
 function ujra() {
