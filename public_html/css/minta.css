@@ -1,5 +1,11 @@
 body{
-   background-image: url("kep.jpg");
+    background-image: url("hatter.png");
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 160%;
 }
 
 #elso{
@@ -65,7 +71,7 @@ body{
 #helyzetBlokk{
     float: left;
     width: 180px;
-    background-color: rgba(5,5,5,0.8);
+    background-color: rgba(90,66,106,0.8);
     border-radius: 30px;
     height: 470px;
 }
@@ -73,7 +79,7 @@ body{
 #nyeremenyBlokk{
     float: right;
     width: 180px;
-    background-color: rgba(5,5,5,0.8);
+    background-color: rgba(90,66,106,0.8);
     border-radius: 30px;
     height: 470px;
 }
@@ -81,11 +87,12 @@ body{
 #valaszok{
     height: 200px;
     width: 560px;
-    background-color: rgba(5,5,5,0.8);
+    background-color: rgba(90,66,106,0.8);
     padding: 20px 40px 60px 40px;
     border-radius: 30px;
     float: left;
     text-align: center;
+    margin-top: 190px;
 }
 
 #valaszok p{
@@ -101,6 +108,11 @@ body{
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
+}
+
+#eltolo {
+    width: 100%;
+    height: 100px;
 }
 
 #ujra{
