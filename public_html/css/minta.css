@@ -1,11 +1,9 @@
 body{
     background-image: url("hatter.png");
     background-color: black;
-    height: 100%;
-    width: 100%;
+    max-height: 100%;
     background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 100% 160%;
+    background-position: center top;
 }
 
 #elso{
@@ -159,7 +157,7 @@ body{
     .valasz{
         width: 250px;
     }
-        #main{
+    #main{
         margin-left: 0px;
     }
 }
