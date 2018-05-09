@@ -12,7 +12,7 @@ var kerdesek = [[["Hogyan keződik? \"... a gőzmozdony\"", 2, "Persi", "Thomas"
                [["Mi Esztergom partnervárosa?", 3, "Szentes", "Szeged", "Szekszárd", "Szenthalombatta"],["Hány tonna egy kék bálna?", 4, "98", "125", "152", "173"],["Maradona hányas mezt viselt?", 2, "9-es", "10-es", "11-es", "12-es"],[],[],[],[],[],[],[]],
                [["Melyik országhoz tartoznak a Galápagos-szigetek?", 4, "Brazíliához", "Peruhoz", "Kolumbiához", "Ecuadorhoz"],["Mekkora a leghosszabb uborka a Guinness Rekordok Könyvében?", 1, "119,38 cm", "56,78 cm", "234,56 cm", "152,32 cm"],["Repka Attila, bírkózó melyik olimpián nyert aranyérmet?", 2, "1992, Barcelona", "1996, Atlanta", "2000, Sydney", "2004, Athén"],[],[],[],[],[],[],[]],
                [["Hol található a Tien-San hegység?", 1, "Közép-Ázsiában", "Dél-Amerikában", "Afrikában", "Kelet-Ázsiában"],["Milyen állat a gaur?", 2, "hüllő", "emlős", "madár", "kétéltű"],["Mikor született Kincsem a „csodakanca”?", 3, "1897. március 17-én", "1923. március 17-én", "1874. március 17-én", "1902. március 17-én"],["Ki volt az év sportolónõje 2007-ben?", 4, "Nagy Tímea", "Hosszú Katinka", "Mincza-Nébald Ildikó", "Szávay Ágnes"],[],[],[],[],[],[]],
-               [["Mi Zimbabwe fõvárosa?", 2, "Jodane", "Harare", "Maputo", "Dodoma"],[],[],[],[],[],[],[],[],[]]];
+               [["Mi Zimbabwe fõvárosa?", 2, "Jodane", "Harare", "Maputo", "Dodoma"],["Milyen állat az addax?", 3, "krokodil", "aligátor", "antilop", "jaguár"],["Hány világbajnoki címe van Alain Prost autóversenyzőnek?", 4, "három", "hat", "kettő", "négy"],[],[],[],[],[],[],[]]];
 var jovalasz;
 var vanvalasz = false;
 var jogomb;
