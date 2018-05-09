@@ -104,9 +104,7 @@ function johet() {
         }
         else forintok[kerdesSzama].style.backgroundColor = "green";
         helyzetek[kerdesSzama++].style.backgroundColor = "green";
-        if(kerdesSzama!==10)
         setTimeout(betoltes, 2000);
-        else ujra();
     }
 
 }
