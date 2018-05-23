@@ -1,6 +1,6 @@
 function kiir(szoveg) {
     var kerdes = document.getElementById("kerdes").getElementsByTagName("p");
-    kerdes[0].innerHTML = szoveg;
+    kerdes[0].innerHTML = szoveg+" ("+(kerdesSzama+1)+"/10)";
 }
 
 var kerdesek = [[["Hogyan keződik? \"... a gőzmozdony\"", 2, "Persi", "Thomas", "Bob", "Chuggington"], ["Mit szeret Micimackó a leginkább?", 1, "Méz", "Eper", "Csoki", "Tejszínhab"], ["Mennyi a következő egyenlet megoldása: 2*(3+4)/7", 4, "3.3", "1", "7", "2"], ["Hogy hívtak majdnem mindenkit a RRRrrrr!!! c. filmben?", 2, "Béla", "Pali", "Szőke", "Jani"], ["A sárga és a kék szín keverésével milyen színt kapunk?", 1, "Zöld", "Piros", "Kék", "Lila"], ["Milyen kategóriájú jogosítvánnyal lehet személygépkocsit vezetni?", 2, "A", "B", "C", "D"], ["Melyik képzeletbeli város Batman otthona?", 4, "New York", "Budapest", "Joker", "Gotham"], ["Hány csoda van a világon?", 3, "1", "3", "7", "12"], ["Milyen magas a Mt. Everest?", 1, "8848 m", "9659 m", "13027 m", "15984 m"], ["Milyen színű a kör a japán nemzeti zászlóban?", 1, "Piros", "Kék", "Sárga", "Zöld"]],

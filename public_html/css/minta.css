@@ -147,6 +147,10 @@ body{
 }
 
 @media only screen and (max-width: 880px){
+    #valaszok p{
+        color: #FFFFF1;
+    }
+    
     #helyzet{
         display: none;
     }
