@@ -104,7 +104,12 @@ function johet() {
         }
         else forintok[kerdesSzama].style.backgroundColor = "green";
         helyzetek[kerdesSzama++].style.backgroundColor = "green";
+        if(kerdesSzama+1) === 11) {
+            var kerdes = document.getElementById("kerdes").getElementsByTagName("p");
+        kerdes[0].innerHTML = "Gratulálok! Megnyerted a főnyereményt!";
+        } else {
         setTimeout(betoltes, 2000);
+        }
     }
 
 }
